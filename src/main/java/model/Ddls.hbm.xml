@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="model">
+	<class name="Ddls" table="ddls">
+		<id name="ddl_id" column="ddl_id" type="int">
+			<generator class="increment"></generator>
+		</id>
+		
+		<property name="user_id" column="user_id" type="string" insert="true" update="false"></property>
+		<property name="ddl_content" column="content" type="string"></property>
+		<property name="ddl_title" column="ddl_title" type="string"></property>
+		<property name="ddl_time" column="ddl_time" type="timestamp"></property>
+	</class>
+</hibernate-mapping>
