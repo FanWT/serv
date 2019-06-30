@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sjtu.courseassistant</groupId>
-    <artifactId>server</artifactId>
+    <artifactId>service2</artifactId>
     <version>0.0.1</version>
     <packaging>war</packaging>
 
@@ -40,11 +40,7 @@
             <version>1.6.1_5</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.2.10.Final</version>
-        </dependency>
+
 
     </dependencies>
 </project>
